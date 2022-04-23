@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.main1{
+    /* background:linear-gradient(rgba(202, 10, 100, 0.918),rgba(159, 224, 7, 0.459));
+    height: 30rem; */
+}
+ .aboutUsBtn h1{
+    background-color: rgba(0,0,0,0.55);
+    color:#ffffff;
+    padding-bottom: 0.5rem;
+    max-width: fit-content;
+    margin: auto;
+    padding: 1.5rem;
+    border: 4px double #ffc101;  
+}
+.aboutUsBtn h1:hover{
+    background: white;
+    color:blue;
+}
+.aboutUsBtn{
+    padding-top: 10rem;
+}
+.aboutTest {
+    text-align: center;
+    align-items: center;
+    width:90%;
+    margin: 0px auto;
+}
+
