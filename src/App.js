@@ -23,7 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
       </Routes>
-      
+      hr
     </div>
 
   );
