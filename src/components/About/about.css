@@ -6,29 +6,35 @@
 }
 
 .main1{
-    /* background:linear-gradient(rgba(202, 10, 100, 0.918),rgba(159, 224, 7, 0.459));
-    height: 30rem; */
+    background:url("./aboutImg/soup.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 30rem;
 }
- .aboutUsBtn h1{
+.aboutBtn{
+    padding-top:10rem;
+}
+ h1{
     background-color: rgba(0,0,0,0.55);
-    color:#ffffff;
+    color:white;
     padding-bottom: 0.5rem;
     max-width: fit-content;
     margin: auto;
     padding: 1.5rem;
     border: 4px double #ffc101;  
 }
-.aboutUsBtn h1:hover{
-    background: white;
-    color:blue;
-}
-.aboutUsBtn{
-    padding-top: 10rem;
+ h1:hover{
+    background: rgba(196, 25, 159, 0.527);
+    color:white;
 }
 .aboutTest {
     text-align: center;
     align-items: center;
     width:90%;
     margin: 0px auto;
+    padding-top: 5rem;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
