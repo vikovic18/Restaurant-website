@@ -1,0 +1,21 @@
+.intro {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("./homeimg.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+.intro h1 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 5rem;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.intro p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 145%;
+  color: #f9faf9;
+}
