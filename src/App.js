@@ -1,5 +1,3 @@
-
-
 import {
   Routes,
   Route,
@@ -28,6 +26,7 @@ function App() {
 
         </Container>
       </main>
+      <Footer />
     </div>
 
   );
