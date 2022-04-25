@@ -1,5 +1,3 @@
-
-
 import {
   Routes,
   Route,
@@ -15,6 +13,19 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div>
+      <Navbarh />
+      <main className='py-3'>
+        <Container>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<Products />} />
+          </Routes>
+
+        </Container>
+      </main>
+      <Footer />
       <Navbar />
 
       <Routes>
