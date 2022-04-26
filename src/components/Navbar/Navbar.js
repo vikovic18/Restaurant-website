@@ -8,7 +8,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 function Navbarh() {
   return (
     <header className="navh">
-      <Navbar bg="primary" variant='dark' expand="lg">
+      <Navbar bg="primary" variant='dark' expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
           <Navbar.Brand>BUNMI'S CUISINE</Navbar.Brand>
