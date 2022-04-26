@@ -20,7 +20,7 @@ const products = [
     {
         "id": '4',
         "name": 'Jollof Rice with Chicken',
-        "image": '/images/jollof.jpg',
+        "image": '/images/jollofr.jpg',
         "price": '2000'
     },
     {

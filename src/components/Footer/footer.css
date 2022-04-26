@@ -26,7 +26,7 @@ a:focus {
     height: 35px;
     padding: 6px 0;
     text-align: center;
-    color: #999999;
+    color: #ffffff;
     font-size: 14px;
     border: 1px solid #999999;
     border-radius: 35px;
@@ -40,23 +40,23 @@ a:focus {
 .footer .copyright {
     position: relative;
     padding: 1px 0;
-    background: #000000;
+    background: #D9230F;
 }
 
 .footer .copyright .copy-text p {
     margin: 20px;
     font-size: 16px;
     font-weight: 400;
-    color: #999999;
+    color: #ffffff;
 }
 
 .footer .copyright .copy-text p a {
-    color: #0085ff;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .footer .copyright .copy-text p a:hover {
-    color: #ff008c;
+    color: #0085ff;
 }
 
 .footer .copyright .copy-menu {
@@ -66,7 +66,7 @@ a:focus {
 }
 
 .footer .copyright .copy-menu a {
-    color: #999999;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     margin-right: 15px;

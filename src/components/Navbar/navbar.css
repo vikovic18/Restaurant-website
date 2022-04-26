@@ -1,42 +1,11 @@
 /* Navbar */
 
-nav {
-    width: 100%;
-    background-color: black;
-    height: 80px;
-    line-height: 80px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-.navbar-ul {
-    margin: 0px;
-    margin-right: 50px;
-  }
-  
-.navbar-ul li {
-    float: left;
-    padding: 0px 10px;
-    list-style: none;
-  }
-  
-.logo{
-    font-size: 39px;
-    font-weight: bold;
-    margin-left: 100px;
-  }
 
-.logoStyle {
-    text-decoration: none;
-    color: red;
+
+.my-navbar:hover {
+    color: blue; /*will change background-color of element on hover */
+     /*will change color of text within the element on hover */
 }
 
-.Navlink {
-    color: #fff;
-}
+  
 
-.headerlink-title {
-    color: #ffff;
-    text-decoration: none;
-    font-size: 17px;
-}
