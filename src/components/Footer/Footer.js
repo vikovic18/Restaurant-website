@@ -1,6 +1,7 @@
 import React from 'react'
 import 'font-awesome/css/font-awesome.min.css';
 import './footer.css'
+import { LinkContainer } from 'react-router-bootstrap';
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <div className="copy-text">
-                            <p> 2022 &copy; <a href="#">WFD RESTAURANT</a>. All Rights Reserved</p>
+                            <p> 2022 &copy; <a href="/">BUNMI'S CUISINE</a>. All Rights Reserved</p>
                         </div>
                     </div>
                     

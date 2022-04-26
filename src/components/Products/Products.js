@@ -15,7 +15,7 @@ function Products() {
                       <strong>{product.name}</strong>
                     </Card.Title>
                     <Card.Text as='h5'>
-                      N{product.price}
+                    &#8358;{product.price}
                     </Card.Text>
                   </Card.Body>
                 </Card>
