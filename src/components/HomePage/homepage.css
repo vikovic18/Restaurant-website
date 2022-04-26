@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
 .intro {
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(""); 
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("/src/components/HomePage/background.jpg");
   background-size: cover;
+  background-position: centre;
   background-repeat: no-repeat;
   padding: 2rem;
+  width: 100%;
+  height: 100vh;
+  font-family: "Asap", sans-serif;
 }
 .intro h1 {
+  justify-content: center;
   font-weight: bold;
   font-style: normal;
   font-size: 5rem;
-  color: #fff;
-  padding-bottom: 1rem;
+  color: #999;
+  padding: 1rem 2rem 0 3rem; 
 }
 
 .intro p {
@@ -18,4 +29,5 @@
   font-size: 30px;
   line-height: 145%;
   color: #f9faf9;
+  padding: 0rem 1rem 0 3rem;
 }
