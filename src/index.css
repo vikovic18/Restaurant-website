@@ -1,7 +1,6 @@
-body {
-  margin: 0;
-  padding: 0px;
-  box-sizing: border-box;
+main {
+  min-height: 80vh;
+  background-color: #f1e1e1;
 }
 
 

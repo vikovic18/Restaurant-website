@@ -1,0 +1,11 @@
+.productName {
+    color: #D9230F;
+}
+
+.menu {
+    text-align: center;
+    border: 3px;
+    background-color: #D9230F;
+    color: white;
+    padding: 4px;
+}

@@ -7,6 +7,7 @@ body{
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("/src/components/HomePage/background.png");
   background-size: cover;
+  background-position: centre;
   background-repeat: no-repeat;
   padding: 2rem;
   width: 100%;
@@ -14,11 +15,12 @@ body{
   font-family: "Asap", sans-serif;
 }
 .intro h1 {
+  justify-content: center;
   font-weight: bold;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 5rem;
   color: #999;
-  padding: 1rem 2rem 0 3rem;
+  padding: 1rem 2rem 0 3rem; 
 }
 
 .intro p {

@@ -16,7 +16,7 @@ function App() {
     <div>
       <Navbarh />
       <main className='py-3'>
-        <Container>
+        
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/contact" element={<Contact />} />
@@ -24,7 +24,7 @@ function App() {
             <Route path="/products" element={<Products />} />
           </Routes>
 
-        </Container>
+        
       </main>
       <Footer />
     </div>
