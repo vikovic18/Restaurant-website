@@ -38,3 +38,36 @@
     font-weight: bolder;
 }
 
+@media screen and (min-width: 600px) {
+        .aboutTest {
+      font-size:20px;
+      padding-top: 1rem;
+    }
+  }
+  @media screen and (max-width: 900px){
+    .aboutTest{
+        font-size: 17px;
+        padding-top: 2rem;
+      
+      }
+      .main1{
+          height: 30rem;
+      }
+      .aboutBtn{
+          padding-top: 7rem;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .aboutTest{
+      font-size: 17px;
+    
+    }
+    .main1{
+        height: 30rem;
+    }
+    .aboutBtn{
+        padding-top: 5rem;
+    }
+  }
+

@@ -6,12 +6,23 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 
 function Navbarh() {
+
+ 
+
   return (
     <header className="navh">
       <Navbar bg="primary" variant='dark' expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-          <Navbar.Brand>BUNMI'S CUISINE</Navbar.Brand>
+          <Navbar.Brand> 
+        <img
+        src="/images/bunmi2.jpg"
+        width="160"
+        height="160"
+        className="rounded-circle align-top"
+        alt=""
+        />
+        </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

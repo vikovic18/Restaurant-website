@@ -1,37 +1,37 @@
 import React from 'react'
 import 'font-awesome/css/font-awesome.min.css';
 import './footer.css'
-import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
 
 function Footer() {
-  return (
-//Footer Start
-    <div class="footer">
-        <div className="copyright">
+    return (
+        //Footer Start
+        <div class="footer">
+            <div className="copyright">
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <div className="copy-text">
-                            <p> 2022 &copy; <a href="/">BUNMI'S CUISINE</a>. All Rights Reserved</p>
+                            <p> 2022 &copy; <Link to="/">BUMI'S CUISINE</Link>. All Rights Reserved</p>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-6 col-lg-3">
-                    <div class="footer-about">
-                        <div className="footer-social">
-                            <a href=""><i className="fab fa-twitter"></i></a>
-                            <a href=""><i className="fab fa-facebook-f"></i></a>
-                            <a href=""><i className="fab fa-youtube"></i></a>
-                            <a href=""><i className="fab fa-instagram"></i></a>
-                            <a href=""><i className="fab fa-linkedin-in"></i></a>
+                        <div class="footer-about">
+                            <div className="footer-social">
+                                <Link to="/contact"><i className="fab fa-twitter"></i></Link>
+                                <Link to="/contact"><i className="fab fa-facebook-f"></i></Link>
+                                <Link to="/contact"><i className="fab fa-youtube"></i></Link>
+                                <Link to="/contact"><i className="fab fa-instagram"></i></Link>
+                                <Link to="/contact"><i className="fab fa-linkedin-in"></i></Link>
+                            </div>
                         </div>
                     </div>
-                </div>            
 
                 </div>
-            
+
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Footer;
