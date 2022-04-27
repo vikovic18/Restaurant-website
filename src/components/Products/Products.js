@@ -1,10 +1,15 @@
 import products from './productsData'
 import './products.css';
-import { Row, Col, Card } from 'react-bootstrap'
+import { Row, Col, Card, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 
 function Products() {
   return (
     <div className='container'>
+      <Link to="/">
+          <Button className='' size='sm'>GO BACK
+          </Button>
+        </Link>
       <h2 className='mt-3 menu'>MENU</h2>
             <Row>
               {products.map(product => (
