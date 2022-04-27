@@ -10,8 +10,8 @@ function Homepage() {
         <h1>BUMI'S <br />CUISINE</h1>
         <p>Welcome!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <Link to="/products"> 
-        <Button className='m-5'size='lg'>ORDER NOW
+        <Link to="/products">
+          <Button className='m-5' size='lg'>ORDER NOW
           </Button>
         </Link>
       </div>
